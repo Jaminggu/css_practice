@@ -1,0 +1,160 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+div,
+input,
+textarea,
+nav {
+  box-sizing: border-box;
+}
+
+.background {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-image: url("/img/Background.png");
+  background-size: cover;
+}
+
+.wrapping {
+  width: 1440px;
+  height: 100vh;
+  align-items: center;
+  position: relative;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.stamp {
+  margin-left: 60px;
+  width: 91px;
+  height: 33px;
+}
+
+.header-contents {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  -moz-column-gap: 60px;
+       column-gap: 60px;
+  align-items: center;
+}
+.header-contents span {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+.icon {
+  margin-right: 60px;
+  width: 28px;
+  height: 19px;
+  cursor: pointer;
+}
+
+.meet-title {
+  position: absolute;
+  top: 258px;
+  left: 648px;
+  display: flex;
+  align-items: center;
+}
+.meet-title span {
+  font-size: 16px;
+  color: white;
+}
+.meet-title img {
+  width: 21px;
+  height: 26px;
+  margin-left: 9.5px;
+}
+
+.main-title {
+  position: absolute;
+  top: 315px;
+  left: 320px;
+  width: 800px;
+  text-align: center;
+}
+.main-title span {
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 1.14;
+  letter-spacing: -4px;
+  color: white;
+}
+
+.sign-input {
+  position: absolute;
+  top: 530px;
+  left: 345px;
+  width: 750px;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  display: flex;
+}
+.sign-input input {
+  width: 294px;
+  height: 100%;
+  color: #9b9b9b;
+  padding-left: 20px;
+  font-size: 18px;
+}
+.sign-input input ::-moz-placeholder {
+  font-size: 18px;
+  color: #9b9b9b;
+}
+.sign-input input ::placeholder {
+  font-size: 18px;
+  color: #9b9b9b;
+}
+.sign-input div {
+  width: 1px;
+  height: 56px;
+  background-color: white;
+  opacity: 0.2;
+}
+.sign-input button {
+  width: 161px;
+  height: 100%;
+  color: white;
+  font-size: 18px;
+  background-color: #2c99ed;
+  border: 0;
+  cursor: pointer;
+}
+
+.sign-detail {
+  position: absolute;
+  top: 622px;
+  color: #9b9b9b;
+}
+.sign-detail span {
+  color: white;
+  cursor: pointer;
+}
+
+.down-icon {
+  position: absolute;
+  top: 765px;
+  width: 28px;
+  height: 35px;
+  cursor: pointer;
+}/*# sourceMappingURL=index.css.map */
